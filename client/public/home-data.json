@@ -1,0 +1,346 @@
+{
+  "data": {
+    "airing": {
+      "media": [
+        {
+          "id": 21,
+          "title": { "romaji": "ONE PIECE", "english": "ONE PIECE" },
+          "episodes": null,
+          "nextAiringEpisode": { "airingAt": 1743948960, "episode": 1123 },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21-YCDoj1EkAxFn.jpg"
+          }
+        },
+        {
+          "id": 176496,
+          "title": {
+            "romaji": "Ore dake Level Up na Ken: Season 2 - Arise from the Shadow",
+            "english": "Solo Leveling Season 2 -Arise from the Shadow-"
+          },
+          "episodes": 13,
+          "nextAiringEpisode": { "airingAt": 1737817200, "episode": 4 },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176496-xCNtU4llsUpu.png"
+          }
+        },
+        {
+          "id": 163134,
+          "title": {
+            "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
+            "english": "Re:ZERO -Starting Life in Another World- Season 3"
+          },
+          "episodes": 16,
+          "nextAiringEpisode": { "airingAt": 1738758360, "episode": 9 },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163134-Y0r8AGBeVlCi.jpg"
+          }
+        },
+        {
+          "id": 177709,
+          "title": { "romaji": "SAKAMOTO DAYS", "english": "SAKAMOTO DAYS" },
+          "episodes": 11,
+          "nextAiringEpisode": { "airingAt": 1737813600, "episode": 4 },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177709-jBQ965JZG0l8.png"
+          }
+        },
+        {
+          "id": 170942,
+          "title": { "romaji": "Ao no Hako", "english": "Blue Box" },
+          "episodes": 25,
+          "nextAiringEpisode": { "airingAt": 1738248960, "episode": 18 },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170942-B77wUSM1jQTu.jpg"
+          }
+        },
+        {
+          "id": 235,
+          "title": { "romaji": "Meitantei Conan", "english": "Case Closed" },
+          "episodes": null,
+          "nextAiringEpisode": { "airingAt": 1737795600, "episode": 1151 },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx235-XucEZpR3CRaV.jpg"
+          }
+        },
+        {
+          "id": 176301,
+          "title": {
+            "romaji": "Kusuriya no Hitorigoto 2nd Season",
+            "english": "The Apothecary Diaries Season 2"
+          },
+          "episodes": 24,
+          "nextAiringEpisode": { "airingAt": 1737727200, "episode": 3 },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-AclxpmzlKoBM.jpg"
+          }
+        },
+        {
+          "id": 176508,
+          "title": {
+            "romaji": "Shangri-La Frontier 2nd Season",
+            "english": "Shangri-La Frontier Season 2"
+          },
+          "episodes": 25,
+          "nextAiringEpisode": { "airingAt": 1737878400, "episode": 16 },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176508-NHYHx5YJcU5i.png"
+          }
+        },
+        {
+          "id": 170732,
+          "title": {
+            "romaji": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
+            "english": "Is It Wrong To Try To Pick Up Girls in a Dungeon? V"
+          },
+          "episodes": 15,
+          "nextAiringEpisode": { "airingAt": 1738933200, "episode": 12 },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170732-PwCMhnnOKdBu.jpg"
+          }
+        },
+        {
+          "id": 172019,
+          "title": {
+            "romaji": "Dr. STONE: SCIENCE FUTURE",
+            "english": "Dr. STONE SCIENCE FUTURE"
+          },
+          "episodes": 12,
+          "nextAiringEpisode": { "airingAt": 1738242000, "episode": 4 },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx172019-y0dLlAdingR2.jpg"
+          }
+        }
+      ]
+    },
+    "recommended": {
+      "media": [
+        {
+          "id": 182469,
+          "title": {
+            "romaji": "ONE PIECE FAN LETTER",
+            "english": "ONE PIECE FAN LETTER"
+          },
+          "averageScore": 90,
+          "genres": ["Action", "Adventure", "Fantasy"],
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx182469-khlqznXY0bwo.jpg"
+          }
+        },
+        {
+          "id": 109731,
+          "title": {
+            "romaji": "Hibike! Euphonium 3",
+            "english": "Sound! Euphonium 3"
+          },
+          "averageScore": 87,
+          "genres": ["Drama", "Music", "Slice of Life"],
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx109731-PBjrX9CebGus.png"
+          }
+        },
+        {
+          "id": 166216,
+          "title": {
+            "romaji": "Boku no Kokoro no Yabai Yatsu 2nd Season",
+            "english": "The Dangers in My Heart Season 2"
+          },
+          "averageScore": 87,
+          "genres": ["Comedy", "Romance", "Slice of Life"],
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166216-JVyN7PHel5K9.jpg"
+          }
+        },
+        {
+          "id": 174788,
+          "title": { "romaji": "Look Back", "english": "LOOK BACK" },
+          "averageScore": 87,
+          "genres": ["Drama", "Slice of Life"],
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx174788-tuw7KozIDS8a.jpg"
+          }
+        },
+        {
+          "id": 172420,
+          "title": {
+            "romaji": "Uma Musume: Pretty Derby - Shin Jidai no Tobira",
+            "english": null
+          },
+          "averageScore": 87,
+          "genres": ["Drama", "Slice of Life", "Sports"],
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx172420-4LjhmwpNMHti.jpg"
+          }
+        },
+        {
+          "id": 169755,
+          "title": {
+            "romaji": "BLEACH: Sennen Kessen-hen - Soukoku-tan",
+            "english": "BLEACH: Thousand-Year Blood War - The Conflict"
+          },
+          "averageScore": 87,
+          "genres": ["Action", "Adventure", "Supernatural"],
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169755-Rqb7MjnzdTc6.jpg"
+          }
+        },
+        {
+          "id": 173533,
+          "title": {
+            "romaji": "Monogatari Series: Off & Monster Season",
+            "english": "MONOGATARI Series: OFF & MONSTER Season"
+          },
+          "averageScore": 86,
+          "genres": ["Drama", "Mystery", "Supernatural"],
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx173533-9DN3nHtT2FBm.png"
+          }
+        },
+        {
+          "id": 153658,
+          "title": {
+            "romaji": "Haikyuu!!: Gomi Suteba no Kessen",
+            "english": "HAIKYU!! The Dumpster Battle"
+          },
+          "averageScore": 86,
+          "genres": ["Comedy", "Drama", "Sports"],
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153658-KVnjW77cQw3y.jpg"
+          }
+        },
+        {
+          "id": 166531,
+          "title": {
+            "romaji": "[Oshi no Ko] 2nd Season",
+            "english": "Oshi no Ko Season 2"
+          },
+          "averageScore": 86,
+          "genres": ["Drama", "Mystery", "Psychological", "Supernatural"],
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166531-dAL5MsqDHUkj.jpg"
+          }
+        },
+        {
+          "id": 163134,
+          "title": {
+            "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
+            "english": "Re:ZERO -Starting Life in Another World- Season 3"
+          },
+          "averageScore": 85,
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy",
+            "Psychological",
+            "Romance",
+            "Thriller"
+          ],
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163134-Y0r8AGBeVlCi.jpg"
+          }
+        }
+      ]
+    },
+    "nextSeason": {
+      "media": [
+        {
+          "id": 149118,
+          "title": {
+            "romaji": "Enen no Shouboutai: San no Shou",
+            "english": "Fire Force Season 3"
+          },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx149118-AOQb0xuTssGl.jpg"
+          }
+        },
+        {
+          "id": 178680,
+          "title": {
+            "romaji": "WIND BREAKER Season 2",
+            "english": "WIND BREAKER Season 2"
+          },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178680-tA0ZAqw8l0sP.jpg"
+          }
+        },
+        {
+          "id": 143337,
+          "title": {
+            "romaji": "Slime Taoshite 300-nen, Shiranai Uchi ni Level MAX ni Nattemashita: Sono ni",
+            "english": null
+          },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx143337-E4iVjwax3pYc.jpg"
+          }
+        },
+        {
+          "id": 183161,
+          "title": {
+            "romaji": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?",
+            "english": "The Beginning After the End"
+          },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183161-vCQ4hTakFiKW.jpg"
+          }
+        },
+        {
+          "id": 181244,
+          "title": {
+            "romaji": "Kono Subarashii Sekai ni Shukufuku wo! 3: BONUS STAGE",
+            "english": null
+          },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181244-ICHU0FzIhEAY.jpg"
+          }
+        },
+        {
+          "id": 179979,
+          "title": {
+            "romaji": "Aharen-san wa Hakarenai Season 2",
+            "english": null
+          },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179979-YEX5Gpr6h4M9.png"
+          }
+        },
+        {
+          "id": 178781,
+          "title": {
+            "romaji": "Sentai Daishikkaku 2nd Season",
+            "english": null
+          },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178781-20d2qWgRrtQA.jpg"
+          }
+        },
+        {
+          "id": 179965,
+          "title": { "romaji": "Haite Kudasai, Takamine-san", "english": null },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179965-fkPzvBjP4paF.jpg"
+          }
+        },
+        {
+          "id": 181839,
+          "title": {
+            "romaji": "Kobayashi-san Chi no Maidragon Samishii Gariya no Ryuu",
+            "english": null
+          },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181839-oNulf7nWUrPp.png"
+          }
+        },
+        {
+          "id": 185736,
+          "title": {
+            "romaji": "Vigilante: Boku no Hero Academia ILLEGALS",
+            "english": "My Hero Academia: Vigilantes"
+          },
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185736-XVlvuWENihlo.jpg"
+          }
+        }
+      ]
+    }
+  }
+}
