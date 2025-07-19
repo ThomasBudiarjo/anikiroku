@@ -53,8 +53,8 @@ client/src/
 │   │   ├── AnimeSection.vue
 │   │   └── AnimeGrid.vue
 │   └── layout/
-│       ├── Header.vue
-│       └── Footer.vue
+│       ├── SideNav.vue
+│       └── AppLayout.vue
 ├── services/
 │   ├── anilistApi.js
 │   └── graphqlQueries.js
@@ -229,11 +229,13 @@ class AniListAPI {
 
 #### 3.2 Layout Components
 
-**SideNav.vue** - Application Nav
-- App logo/title
-- Home
-- Search
-- Theme toggle
+**SideNav.vue** - Application Navigation Sidebar
+- App logo/title at the top
+- Navigation menu items (Home, Search)
+- Theme toggle button
+- Collapsible on mobile devices
+- Fixed positioning on desktop
+- Modern icon-based navigation
 
 ### Phase 4: State Management & Data Flow
 
