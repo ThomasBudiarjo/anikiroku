@@ -29,36 +29,36 @@ const toggleMobileMenu = () => {
       <h1 class="mobile-logo">AniKiroku</h1>
     </header>
 
-    <div class="layout-container">
-      <!-- Sidebar Navigation -->
-      <SideNav ref="sideNavRef" />
-      
-      <!-- Main Content -->
-      <main class="main-content">
-        <div class="container">
-          <slot />
-        </div>
-      </main>
-    </div>
+    <!-- Sidebar Navigation -->
+    <SideNav ref="sideNavRef" />
+    
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="container">
+        <slot />
+      </div>
+    </main>
   </div>
 </template>
 
 <style scoped>
 .app-layout {
   min-height: 100vh;
-  background: #f8f9fa;
+  background: #f5f6fa;
 }
 
 .mobile-header {
   display: none;
   align-items: center;
   gap: 1rem;
-  padding: 1rem;
-  background: #fff;
-  border-bottom: 1px solid #e0e0e0;
+  padding: 0.75rem 1rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
   position: sticky;
   top: 0;
   z-index: 100;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95);
 }
 
 .mobile-menu-toggle {
@@ -66,13 +66,17 @@ const toggleMobileMenu = () => {
   border: none;
   cursor: pointer;
   padding: 0.5rem;
-  border-radius: 4px;
-  color: #555;
-  transition: background-color 0.2s ease;
+  border-radius: 8px;
+  color: #64748b;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mobile-menu-toggle:hover {
-  background: #f0f0f0;
+  background: #f1f5f9;
+  color: #334155;
 }
 
 .mobile-menu-toggle svg {
@@ -83,25 +87,26 @@ const toggleMobileMenu = () => {
 
 .mobile-logo {
   margin: 0;
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #2c3e50;
-}
-
-.layout-container {
-  display: flex;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e293b;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .main-content {
-  flex: 1;
-  padding: 2rem 0;
-  min-height: calc(100vh - 64px);
+  min-height: 100vh;
+  padding: 0;
+  margin-left: 240px;
+  transition: margin-left 0.3s ease;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 2rem 1.5rem;
 }
 
 /* Mobile Styles */
@@ -111,23 +116,23 @@ const toggleMobileMenu = () => {
   }
   
   .main-content {
-    padding: 1rem 0;
     margin-left: 0;
+    padding-top: 60px;
   }
   
   .container {
-    padding: 0 0.75rem;
+    padding: 1rem;
   }
 }
 
-/* Desktop Styles */
-@media (min-width: 769px) {
+/* Tablet adjustments */
+@media (max-width: 1024px) and (min-width: 769px) {
   .main-content {
-    margin-left: 280px;
+    margin-left: 200px;
   }
   
-  .layout-container {
-    position: relative;
+  .container {
+    padding: 1.5rem 1rem;
   }
 }
 </style>

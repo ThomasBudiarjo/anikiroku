@@ -53,17 +53,19 @@ const getScore = (score) => {
 
 <style scoped>
 .anime-card {
-  background: #fff;
-  border-radius: 8px;
+  background: #ffffff;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+  border: 1px solid rgba(226, 232, 240, 0.5);
 }
 
 .anime-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  border-color: rgba(102, 126, 234, 0.2);
 }
 
 .anime-cover {
@@ -81,60 +83,69 @@ const getScore = (score) => {
 
 .anime-score {
   position: absolute;
-  top: 8px;
-  right: 8px;
-  background: rgba(0, 0, 0, 0.8);
+  top: 10px;
+  right: 10px;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.9) 100%);
   color: white;
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 0.875rem;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
   font-weight: 600;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .anime-info {
-  padding: 12px;
+  padding: 16px;
 }
 
 .anime-title {
-  margin: 0 0 8px 0;
-  font-size: 1rem;
+  margin: 0 0 10px 0;
+  font-size: 0.95rem;
   font-weight: 600;
   line-height: 1.4;
-  color: #333;
+  color: #1e293b;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  letter-spacing: -0.025em;
 }
 
 .anime-meta {
   display: flex;
-  gap: 8px;
-  margin-bottom: 8px;
-  font-size: 0.875rem;
-  color: #666;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  color: #64748b;
+  font-weight: 500;
 }
 
 .episodes {
-  font-weight: 500;
+  font-weight: 600;
+  color: #475569;
 }
 
 .status {
   text-transform: capitalize;
+  color: #667eea;
+  font-weight: 500;
 }
 
 .anime-genres {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 6px;
 }
 
 .genre-tag {
-  background: #f0f0f0;
-  color: #555;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-size: 0.75rem;
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+  color: #475569;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.7rem;
   font-weight: 500;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  transition: all 0.2s ease;
 }
 </style>

@@ -51,46 +51,65 @@ onMounted(async () => {
 <style scoped>
 .home-view {
   padding: 0;
+  min-height: 100vh;
 }
 
 .hero-section {
   text-align: center;
+  margin-bottom: 2.5rem;
+  padding: 1.5rem 0;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.03) 0%, rgba(118, 75, 162, 0.03) 100%);
+  border-radius: 16px;
   margin-bottom: 3rem;
-  padding: 2rem 0;
 }
 
 .hero-title {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  color: #2c3e50;
-  margin: 0 0 1rem 0;
-  background: linear-gradient(45deg, #3498db, #9b59b6);
+  color: #1e293b;
+  margin: 0 0 0.75rem 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  letter-spacing: -0.025em;
 }
 
 .hero-subtitle {
-  font-size: 1.2rem;
-  color: #666;
+  font-size: 1.1rem;
+  color: #64748b;
   margin: 0;
-  font-weight: 400;
+  font-weight: 500;
+  letter-spacing: -0.025em;
 }
 
 .loading-state, .error-state {
   text-align: center;
-  padding: 3rem 0;
-  color: #666;
+  padding: 4rem 0;
+  color: #64748b;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid rgba(226, 232, 240, 0.5);
+}
+
+.loading-state p {
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .error-state h2 {
-  color: #e74c3c;
+  color: #dc2626;
   margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.error-state p {
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
   .hero-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   
   .hero-subtitle {
@@ -99,7 +118,11 @@ onMounted(async () => {
   
   .hero-section {
     margin-bottom: 2rem;
-    padding: 1rem 0;
+    padding: 1.25rem 0;
+  }
+  
+  .loading-state, .error-state {
+    padding: 3rem 0;
   }
 }
 </style>

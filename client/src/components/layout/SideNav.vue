@@ -93,19 +93,18 @@ defineExpose({
   left: 0;
   top: 0;
   height: 100vh;
-  width: 280px;
-  background: #fff;
-  border-right: 1px solid #e0e0e0;
+  width: 240px;
+  background: #1a1b23;
   display: flex;
   flex-direction: column;
   z-index: 1000;
-  transition: transform 0.3s ease;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-right: 1px solid #2d3142;
 }
 
 .nav-header {
-  padding: 1.5rem 1rem;
-  border-bottom: 1px solid #f0f0f0;
+  padding: 1.25rem 1rem;
+  border-bottom: 1px solid #2d3142;
 }
 
 .logo {
@@ -117,28 +116,30 @@ defineExpose({
 }
 
 .logo-icon {
-  width: 40px;
-  height: 40px;
-  background: linear-gradient(45deg, #3498db, #9b59b6);
-  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
 }
 
 .logo-text {
   margin: 0;
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: #2c3e50;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: -0.025em;
 }
 
 .nav-menu {
   flex: 1;
-  padding: 1rem 0;
+  padding: 0.75rem 0;
 }
 
 .nav-item {
@@ -146,13 +147,14 @@ defineExpose({
   align-items: center;
   gap: 0.75rem;
   padding: 0.75rem 1rem;
-  margin: 0.25rem 0.75rem;
-  border-radius: 8px;
+  margin: 0.125rem 0.75rem;
+  border-radius: 10px;
   text-decoration: none;
-  color: #555;
+  color: #9ca3af;
   font-weight: 500;
-  transition: all 0.2s ease;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
+  font-size: 0.875rem;
 }
 
 .nav-button {
@@ -169,55 +171,55 @@ defineExpose({
 }
 
 .nav-item:hover:not(:disabled) {
-  background: #f8f9fa;
-  color: #3498db;
+  background: rgba(102, 126, 234, 0.1);
+  color: #ffffff;
+  transform: translateX(2px);
 }
 
 .nav-item.router-link-active {
-  background: #e3f2fd;
-  color: #3498db;
+  background: linear-gradient(90deg, rgba(102, 126, 234, 0.15) 0%, rgba(102, 126, 234, 0.05) 100%);
+  color: #ffffff;
+  border-left: 3px solid #667eea;
+  margin-left: 0.75rem;
+  padding-left: calc(1rem - 3px);
 }
 
-.nav-item.router-link-active::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 3px;
-  height: 20px;
-  background: #3498db;
-  border-radius: 0 2px 2px 0;
-}
 
 .nav-icon {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   stroke-width: 2;
+  opacity: 0.9;
 }
 
 .nav-text {
-  font-size: 0.95rem;
+  font-size: 0.875rem;
+  font-weight: 500;
 }
 
 .coming-soon {
   margin-left: auto;
-  font-size: 0.7rem;
-  background: #ffeaa7;
-  color: #d63031;
-  padding: 2px 6px;
-  border-radius: 10px;
+  font-size: 0.65rem;
+  background: linear-gradient(135deg, #ffd89b 0%, #19547b 100%);
+  color: #ffffff;
+  padding: 3px 8px;
+  border-radius: 12px;
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .nav-footer {
-  padding: 1rem 0;
-  border-top: 1px solid #f0f0f0;
+  padding: 0.75rem 0;
+  border-top: 1px solid #2d3142;
+  margin-top: auto;
 }
 
 .theme-toggle:hover {
-  background: #f8f9fa;
-  color: #3498db;
+  background: rgba(102, 126, 234, 0.1);
+  color: #ffffff;
+  transform: translateX(2px);
 }
 
 .mobile-overlay {
@@ -227,7 +229,9 @@ defineExpose({
 /* Mobile Styles */
 @media (max-width: 768px) {
   .side-nav {
+    width: 280px;
     transform: translateX(-100%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   }
   
   .side-nav.mobile-open {
@@ -241,16 +245,16 @@ defineExpose({
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     z-index: 999;
+    backdrop-filter: blur(4px);
   }
 }
 
-/* Desktop: Always visible sidebar */
-@media (min-width: 769px) {
+/* Tablet adjustments */
+@media (max-width: 1024px) and (min-width: 769px) {
   .side-nav {
-    position: relative;
-    transform: none;
+    width: 200px;
   }
 }
 </style>
